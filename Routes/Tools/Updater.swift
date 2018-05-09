@@ -14,16 +14,14 @@ let apiBaseUrl = "https://api.myjson.com/bins"
 
 struct Router{
     
-    static let rotues = "/10yg1t"
-
-    
+    static let schoolBuses = "/10yg1t"
 }
 
 struct Updater {
     
     static func fetchSchoolBuses(_ completion: ((_ buses: [SchoolBus]?, _ error: Error?) -> Void )? ){
         
-        let url = apiBaseUrl + Router.rotues
+        let url = apiBaseUrl + Router.schoolBuses
         
         Alamofire.request(url).validate().responseObject { (response: DataResponse<SchoolBusesResponse>) in
             
