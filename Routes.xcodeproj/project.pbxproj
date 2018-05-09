@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9948259F20A382C900E228FB /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948259E20A382C900E228FB /* ApiResponse.swift */; };
+		994825A120A3845600E228FB /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994825A020A3845600E228FB /* ApiKeys.swift */; };
+		994825A320A38AC000E228FB /* SchoolBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994825A220A38AC000E228FB /* SchoolBus.swift */; };
+		994825A620A38AE200E228FB /* SchoolBusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994825A520A38AE200E228FB /* SchoolBusStop.swift */; };
+		994825AB20A38E6700E228FB /* SchoolBussesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994825AA20A38E6700E228FB /* SchoolBussesViewController.swift */; };
+		994825AF20A38ECB00E228FB /* SchoolBusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994825AD20A38ECB00E228FB /* SchoolBusTableViewCell.swift */; };
+		994825B020A38ECB00E228FB /* SchoolBusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 994825AE20A38ECB00E228FB /* SchoolBusTableViewCell.xib */; };
+		994825B220A396B400E228FB /* SchoolBusDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994825B120A396B400E228FB /* SchoolBusDetailViewController.swift */; };
+		994825B520A397B200E228FB /* UIViewController+Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994825B420A397B200E228FB /* UIViewController+Routes.swift */; };
+		994825B720A39B4700E228FB /* SchoolBusStop+MapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994825B620A39B4700E228FB /* SchoolBusStop+MapKit.swift */; };
 		9994194120A3738C002BA5AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9994194020A3738C002BA5AE /* AppDelegate.swift */; };
-		9994194320A3738C002BA5AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9994194220A3738C002BA5AE /* ViewController.swift */; };
 		9994194620A3738C002BA5AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9994194420A3738C002BA5AE /* Main.storyboard */; };
 		9994194820A37390002BA5AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9994194720A37390002BA5AE /* Assets.xcassets */; };
 		9994194B20A37390002BA5AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9994194920A37390002BA5AE /* LaunchScreen.storyboard */; };
+		9994195320A373B9002BA5AE /* Updater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9994195220A373B9002BA5AE /* Updater.swift */; };
+		C9139651BDD012C0762C42BC /* Pods_Routes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F83DA1A95F4C7505F31689 /* Pods_Routes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9948259E20A382C900E228FB /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		994825A020A3845600E228FB /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		994825A220A38AC000E228FB /* SchoolBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBus.swift; sourceTree = "<group>"; };
+		994825A520A38AE200E228FB /* SchoolBusStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBusStop.swift; sourceTree = "<group>"; };
+		994825AA20A38E6700E228FB /* SchoolBussesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBussesViewController.swift; sourceTree = "<group>"; };
+		994825AD20A38ECB00E228FB /* SchoolBusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBusTableViewCell.swift; sourceTree = "<group>"; };
+		994825AE20A38ECB00E228FB /* SchoolBusTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchoolBusTableViewCell.xib; sourceTree = "<group>"; };
+		994825B120A396B400E228FB /* SchoolBusDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBusDetailViewController.swift; sourceTree = "<group>"; };
+		994825B420A397B200E228FB /* UIViewController+Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Routes.swift"; sourceTree = "<group>"; };
+		994825B620A39B4700E228FB /* SchoolBusStop+MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SchoolBusStop+MapKit.swift"; sourceTree = "<group>"; };
 		9994193D20A3738C002BA5AE /* Routes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Routes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9994194020A3738C002BA5AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9994194220A3738C002BA5AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9994194520A3738C002BA5AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9994194720A37390002BA5AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9994194A20A37390002BA5AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9994194C20A37390002BA5AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9994195220A373B9002BA5AE /* Updater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updater.swift; sourceTree = "<group>"; };
+		9BBEB2DCB4E12991D95CB4D7 /* Pods-Routes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Routes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Routes/Pods-Routes.debug.xcconfig"; sourceTree = "<group>"; };
+		A4F83DA1A95F4C7505F31689 /* Pods_Routes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Routes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9321E1ABECC1C335D154DF3 /* Pods-Routes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Routes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Routes/Pods-Routes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9139651BDD012C0762C42BC /* Pods_Routes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CDF0217EECC9B154DD71128 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4F83DA1A95F4C7505F31689 /* Pods_Routes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		994825A420A38AD200E228FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				994825A520A38AE200E228FB /* SchoolBusStop.swift */,
+				994825A220A38AC000E228FB /* SchoolBus.swift */,
+				9948259E20A382C900E228FB /* ApiResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		994825A820A38C2700E228FB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				994825B320A3979100E228FB /* Extensions */,
+				9994195220A373B9002BA5AE /* Updater.swift */,
+				994825A020A3845600E228FB /* ApiKeys.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		994825A920A38C4500E228FB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				994825AA20A38E6700E228FB /* SchoolBussesViewController.swift */,
+				994825B120A396B400E228FB /* SchoolBusDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		994825AC20A38EAD00E228FB /* Visual Components */ = {
+			isa = PBXGroup;
+			children = (
+				994825AD20A38ECB00E228FB /* SchoolBusTableViewCell.swift */,
+				994825AE20A38ECB00E228FB /* SchoolBusTableViewCell.xib */,
+			);
+			path = "Visual Components";
+			sourceTree = "<group>";
+		};
+		994825B320A3979100E228FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				994825B420A397B200E228FB /* UIViewController+Routes.swift */,
+				994825B620A39B4700E228FB /* SchoolBusStop+MapKit.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9994193420A3738C002BA5AE = {
 			isa = PBXGroup;
 			children = (
 				9994193F20A3738C002BA5AE /* Routes */,
 				9994193E20A3738C002BA5AE /* Products */,
+				ACCAA842A06ED1A4A0628B81 /* Pods */,
+				7CDF0217EECC9B154DD71128 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +136,26 @@
 		9994193F20A3738C002BA5AE /* Routes */ = {
 			isa = PBXGroup;
 			children = (
+				994825AC20A38EAD00E228FB /* Visual Components */,
+				994825A820A38C2700E228FB /* Tools */,
+				994825A920A38C4500E228FB /* ViewController */,
+				994825A420A38AD200E228FB /* Model */,
 				9994194020A3738C002BA5AE /* AppDelegate.swift */,
-				9994194220A3738C002BA5AE /* ViewController.swift */,
 				9994194420A3738C002BA5AE /* Main.storyboard */,
 				9994194720A37390002BA5AE /* Assets.xcassets */,
 				9994194920A37390002BA5AE /* LaunchScreen.storyboard */,
 				9994194C20A37390002BA5AE /* Info.plist */,
 			);
 			path = Routes;
+			sourceTree = "<group>";
+		};
+		ACCAA842A06ED1A4A0628B81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BBEB2DCB4E12991D95CB4D7 /* Pods-Routes.debug.xcconfig */,
+				D9321E1ABECC1C335D154DF3 /* Pods-Routes.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9994194F20A37390002BA5AE /* Build configuration list for PBXNativeTarget "Routes" */;
 			buildPhases = (
+				BBF0CC4C16B61EAF8088D3D3 /* [CP] Check Pods Manifest.lock */,
 				9994193920A3738C002BA5AE /* Sources */,
 				9994193A20A3738C002BA5AE /* Frameworks */,
 				9994193B20A3738C002BA5AE /* Resources */,
+				D8107ECF169EEE4FEEA3393B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994825B020A38ECB00E228FB /* SchoolBusTableViewCell.xib in Resources */,
 				9994194B20A37390002BA5AE /* LaunchScreen.storyboard in Resources */,
 				9994194820A37390002BA5AE /* Assets.xcassets in Resources */,
 				9994194620A3738C002BA5AE /* Main.storyboard in Resources */,
@@ -130,13 +227,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BBF0CC4C16B61EAF8088D3D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Routes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8107ECF169EEE4FEEA3393B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Routes/Pods-Routes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Routes/Pods-Routes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9994193920A3738C002BA5AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9994194320A3738C002BA5AE /* ViewController.swift in Sources */,
+				994825A620A38AE200E228FB /* SchoolBusStop.swift in Sources */,
+				994825A120A3845600E228FB /* ApiKeys.swift in Sources */,
+				994825B220A396B400E228FB /* SchoolBusDetailViewController.swift in Sources */,
+				994825AF20A38ECB00E228FB /* SchoolBusTableViewCell.swift in Sources */,
+				994825A320A38AC000E228FB /* SchoolBus.swift in Sources */,
+				994825B720A39B4700E228FB /* SchoolBusStop+MapKit.swift in Sources */,
+				994825B520A397B200E228FB /* UIViewController+Routes.swift in Sources */,
+				9948259F20A382C900E228FB /* ApiResponse.swift in Sources */,
 				9994194120A3738C002BA5AE /* AppDelegate.swift in Sources */,
+				994825AB20A38E6700E228FB /* SchoolBussesViewController.swift in Sources */,
+				9994195320A373B9002BA5AE /* Updater.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +433,13 @@
 		};
 		9994195020A37390002BA5AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BBEB2DCB4E12991D95CB4D7 /* Pods-Routes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86PMDM3J26;
 				INFOPLIST_FILE = Routes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +453,13 @@
 		};
 		9994195120A37390002BA5AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9321E1ABECC1C335D154DF3 /* Pods-Routes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86PMDM3J26;
 				INFOPLIST_FILE = Routes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
